@@ -1,0 +1,50 @@
+body{
+	background-color: lightgrey;
+}
+li#red{
+	color:red;
+}
+#Blue{
+	color: blue;
+}
+p.darkblue{
+	color: brown;
+}
+div.good{
+	color: orange;
+	font-style: italic;
+	font-size: larger;
+}
+#cole{
+	font-size: x-large;
+}
+.centered{
+	display: flex;
+	justify-content: center;
+	font-size: larger;
+}
+table {
+	border-collapse: collapse;
+	width: 50%;
+}
+td, th {
+	border: 1px solid black;
+	text-align: center;
+	padding: 6px;
+}
+th 	{
+	font-size: larger;
+}
+#pool {
+	padding: 16px;
+	font-size: larger;
+	background-color: red;
+	color: lightblue;
+	border-radius: 100px;
+}
+#pool:hover{
+	background-color: blue;
+	transition-duration: 0.1s;
+
+}
+
